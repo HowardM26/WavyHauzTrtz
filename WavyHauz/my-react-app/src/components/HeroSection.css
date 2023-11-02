@@ -1,0 +1,39 @@
+  
+  .hero-container {
+    background: url('/WavyHauzTrts_pics/90s theme.jpeg') center center/cover no-repeat; 
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+  .hero-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 300px;
+  }
+  
+  .hero-container > p {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .hero-btns  {
+    margin-top: 100px;
+  }
+  
+  .hero-btns .btn {
+    margin: 20px 10px
+
+  }
+  
+  .fa-play-circle {
+    margin-left: 8px;
+  }
+  
