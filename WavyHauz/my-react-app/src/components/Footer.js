@@ -30,17 +30,17 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>What is WavyHauz?</Link>
-            <Link to='/'>Reviews</Link>
+            
             <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
+            
             <Link to='/'>Nutrition facts</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Donate</Link>
-            <Link to='/'>Sponsor</Link>
+            <Link to='/'>Support(COMING SOON)</Link>
+            <Link to='https://square.link/u/LJlTO5Eq'>Donate</Link>
+            <Link to='/'>Sponsor(COMING SOON)</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -48,15 +48,15 @@ function Footer() {
             <h2>Other</h2>
             <Link to='/'>Submit a review</Link>
             <Link to='/'>Join the wave</Link>
-            <Link to='/'>Locations</Link>
-            <Link to='/'>Merch</Link>
+            
+            <Link to='/'>Merch(COMING SOON)</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='https://www.instagram.com/wavyhauztrts/?igshid=OGQ5ZDc2ODk2ZA%3D%3D'>Instagram</Link>
+            <Link to='https://www.facebook.com/Wavyhauxtrtz?mibextid=LQQJ4d'>Facebook</Link>
+            <Link to='www.youtube.com/@wavychannel626'>Youtube</Link>
+        
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='/'
+              to='https://www.facebook.com/Wavyhauxtrtz?mibextid=LQQJ4d'
               target='_blank'
               aria-label='Facebook'
             >
@@ -80,7 +80,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link instagram'
-              to='/'
+              to='https://www.instagram.com/wavyhauztrts/?igshid=OGQ5ZDc2ODk2ZA%3D%3D'
               target='_blank'
               aria-label='Instagram'
             >
@@ -88,20 +88,13 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='www.youtube.com/@wavychannel626'
               target='_blank'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
             </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
+            
             <Link
               class='social-icon-link twitter'
               to='/'
