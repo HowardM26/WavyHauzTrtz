@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-
+import Dropdown from './pages/Dropdown';
+ 
 function Navbar() {
   const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
@@ -56,10 +58,16 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Products <i className='fas fa-caret-down' />
+              </Link>
+              {dropdown && <Dropdown />}
+            </li>
+            <li className='nav-item'>
+              <Link to='/GourmetCookies' className='nav-links' onClick={closeMobileMenu}>
+                Gourmet Cookies
               </Link>
             </li>
-
+          
             <li>
               <Link
                 to='/sign-up'

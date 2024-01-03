@@ -15,8 +15,12 @@
     justify-content: center;
     font-size: 3rem;
   }
+
+  .background {
+    background-image: url('/public/WavyHauzTrts_pics/90s\theme.jpeg');
+ }
   .About {
-  background-image: url("/WavyHauzTrts_pics/Logo1__1.jpg");
+ background-image: url("/public/WavyHauzTrts_pics/90s\theme.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

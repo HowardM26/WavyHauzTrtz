@@ -29,11 +29,11 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>What is WavyHauz?</Link>
+            <Link to='/About'>What is WavyHauz?</Link>
             
-            <Link to='/'>Careers</Link>
+            <Link to='/'>Careers(COMING SOON)</Link>
             
-            <Link to='/'>Nutrition facts</Link>
+            <Link to='/'>Nutrition facts(COMING SOON)</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
@@ -55,7 +55,7 @@ function Footer() {
             <h2>Social Media</h2>
             <Link to='https://www.instagram.com/wavyhauztrts/?igshid=OGQ5ZDc2ODk2ZA%3D%3D'>Instagram</Link>
             <Link to='https://www.facebook.com/Wavyhauxtrtz?mibextid=LQQJ4d'>Facebook</Link>
-            <Link to='www.youtube.com/@wavychannel626'>Youtube</Link>
+            <Link to='https://www.youtube.com/@wavychannel626'>Youtube</Link>
         
           </div>
         </div>
@@ -88,7 +88,7 @@ function Footer() {
             </Link>
             <Link
               class='social-icon-link youtube'
-              to='www.youtube.com/@wavychannel626'
+              to='https://www.youtube.com/@wavychannel626'
               target='_blank'
               aria-label='Youtube'
             >
