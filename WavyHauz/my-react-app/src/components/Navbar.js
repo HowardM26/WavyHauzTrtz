@@ -12,6 +12,23 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const onMouseEnter = () => {
+    if(window.innerWidth <960) {
+      setDropdown(false)
+    } else{
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if(window.innerWidth <960) {
+      setDropdown(false)
+    } else{
+      setDropdown(false);
+    }
+  };
+
+
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -52,7 +69,10 @@ function Navbar() {
                 About
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-item'
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+            >
               <Link
                 to='/Products'
                 className='nav-links'

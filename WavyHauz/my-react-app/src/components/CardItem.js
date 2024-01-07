@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function GourmetCookies(props) {
+function CardItem(props) {
   return (
     <>
       <li className='cards__item'>
@@ -22,4 +22,4 @@ function GourmetCookies(props) {
   );
 }
 
-export default GourmetCookies;
+export default CardItem;
