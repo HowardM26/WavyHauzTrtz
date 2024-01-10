@@ -1,3 +1,7 @@
+body{
+  background-image: url('/WavyHauzTrts_pics/90s\ theme.jpeg');
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +11,8 @@
   .home,
   .About,
   .products,
+  
+  
 
   .sign-up {
     display: flex;
@@ -16,19 +22,16 @@
     font-size: 3rem;
   }
 
-  .background {
-    background-image: url('/public/WavyHauzTrts_pics/90s\theme.jpeg');
- }
+  
   .About {
- background-image: url("/public/WavyHauzTrts_pics/90s\theme.jpeg");
+ background-image: url('/WavyHauzTrts_pics/90stheme.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
   font-size: 100px;
 }
 
-.products {background-image: url('/images/img-1.jpg');
+.Products {background-image: url('/images/img-1.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;

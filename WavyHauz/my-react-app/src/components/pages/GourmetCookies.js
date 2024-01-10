@@ -1,20 +1,19 @@
 import React from 'react';
 import '../../App.css';
-import Navbar from '../Navbar';
-import CardItem from '../CardItem';
-import './GourmetCookies.css'
+import Dropdown from './Dropdown';
 import Footer from '../Footer';
-
-function Products() {
-    return (
-      <>
-       
-      
-        <Footer />
-      </>
-    );
-  }
+import GourmetItem from './GourmetItem';
+import './GourmetCookies.css'
+import Cards from '../Cards';
 
 
-  
-  export default GourmetCookies;
+function GourmetCookies() {
+  return (
+    <>
+    <Cards />
+    <Footer />
+    </>
+  )
+}
+
+export default GourmetCookies;

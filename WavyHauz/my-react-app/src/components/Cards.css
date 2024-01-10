@@ -94,7 +94,7 @@ cards {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #fff;
   font-size: 18px;
   line-height: 24px;
 }
@@ -116,3 +116,4 @@ cards {
     margin-bottom: 2rem;
   }
 }
+

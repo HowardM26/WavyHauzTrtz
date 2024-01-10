@@ -78,15 +78,11 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products <i className='fas fa-caret-down' />
+                Treats <i className='fas fa-caret-down' />
               </Link>
               {dropdown && <Dropdown />}
             </li>
-            <li className='nav-item'>
-              <Link to='/GourmetCookies' className='nav-links' onClick={closeMobileMenu}>
-                Gourmet Cookies
-              </Link>
-            </li>
+            
           
             <li>
               <Link
