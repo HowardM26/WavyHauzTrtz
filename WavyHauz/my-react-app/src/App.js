@@ -7,7 +7,9 @@ import About from './components/pages/About';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
 import GourmetCookies from './components/pages/GourmetCookies';
+import CustomOrder from './components/pages/CustomOrder';
 import withSplashScreen from './components/withSplashScreen'; 
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           <Route path='/Products' element={<Products />} />
           <Route path='/Sign-up' element={<SignUp />} />
           <Route path='/GourmetCookies' element={<GourmetCookies />} />
+          <Route path='/CustomOrder' element={<CustomOrder />} />
         </Routes>
       </Router>
       <div className='App'>

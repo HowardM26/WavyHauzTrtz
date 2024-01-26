@@ -82,6 +82,15 @@ function Navbar() {
               </Link>
               {dropdown && <Dropdown />}
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/CustomOrder'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Custom Orders
+              </Link>
+            </li>
             
           
             <li>
