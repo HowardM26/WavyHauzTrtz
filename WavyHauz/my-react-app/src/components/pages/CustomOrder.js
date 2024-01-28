@@ -1,11 +1,28 @@
 import React from 'react';
+import {useRef} from 'react';
 import '../../App.css';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import './CustomOrder.css';
+import emailjs from '@emailjs/browser';
+
 
 
 const CustomOrder = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ple8vw7', 'template_sm8d475', form.current, 'AG8Cc3dbDZsqqy-UO')
+      .then((result) => {
+          console.log('Order Placed!');
+      }, (error) => {
+          console.log('Sorry try again');
+      });
+      e.target.reset();
+  };
+
     return (
      <div className='custom-container'>
         <h1>
@@ -15,7 +32,7 @@ const CustomOrder = () => {
         <section>
             <div className="container">
                 <h2 className='--text-center'>Place Order</h2>
-                <form className='--form-control--card--flex-center--dir-column' >
+                <form ref={form} onSubmit={sendEmail} className='--form-control--card--flex-center--dir-column' >
                     <input type='text'
                     placeholder='Full Name'
                     name='user_name' required />

@@ -35,7 +35,7 @@ If you would like your order to arrive faster than 3 days text your name, addres
                     this.setState({
                         loading: false,
                     });
-                }, 100000)
+                }, 1000)
             } catch (err) {
                 console.log(err);
                 this.setState({
