@@ -13,6 +13,7 @@
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
+import { type } from '@testing-library/user-event/dist/type';
 
 const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
 
@@ -43,3 +44,18 @@ export const Button = ({
     </Link>
   );
 };
+
+function enterButton() {
+  return (
+    <Link to='/' className='Enter'>
+   
+      <button 
+      onClick={enterButton}>
+      
+      Press To Enter</button>
+      
+ </Link>
+  );
+};
+
+export default enterButton;

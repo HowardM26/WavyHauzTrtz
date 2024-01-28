@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './withSplashScreen.css'
-
+import enterButton from './Button';
 
 function SplashMessage() {
     return(
@@ -12,7 +12,9 @@ If your products arrive 2 days past expected arrival date a partial refund will 
 If you would like your order to arrive faster than 3 days text your name, address and order to 804-621-3741 & let us know, shipping cost will be added to your order.
       
         </p>
+        <enterButton/>
     </div>
+
     );
 }
 
@@ -33,7 +35,7 @@ If you would like your order to arrive faster than 3 days text your name, addres
                     this.setState({
                         loading: false,
                     });
-                }, 10000)
+                }, 100000)
             } catch (err) {
                 console.log(err);
                 this.setState({

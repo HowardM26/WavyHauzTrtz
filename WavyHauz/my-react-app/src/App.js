@@ -9,6 +9,11 @@ import SignUp from './components/pages/SignUp';
 import GourmetCookies from './components/pages/GourmetCookies';
 import CustomOrder from './components/pages/CustomOrder';
 import withSplashScreen from './components/withSplashScreen'; 
+import enterButton from './components/Button';
+import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 function App() {
@@ -17,6 +22,7 @@ function App() {
     <Router>
         <Navbar />
         <Routes>
+          <Route path='/' element={<enterButton />} />
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
           <Route path='/Products' element={<Products />} />
@@ -25,9 +31,7 @@ function App() {
           <Route path='/CustomOrder' element={<CustomOrder />} />
         </Routes>
       </Router>
-      <div className='App'>
-        Hello, World!
-      </div>
+      
   </>
 );
 }

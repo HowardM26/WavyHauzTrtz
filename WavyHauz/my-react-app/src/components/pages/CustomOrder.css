@@ -1,10 +1,39 @@
-.CustomOrder-container{
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.container{
+    height: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.--form-control--card--flex-center--dir-column{
+   
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-container > h1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.--text-center{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.notice-container > h3{
+    background-color: white;
 }
