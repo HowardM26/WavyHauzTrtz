@@ -3,11 +3,13 @@ cards {
     background: #fff;
   }
   
-  h1 {
-    text-align: center;
+  .cards > h1 {
+background-color: plum;    text-align: center;
+    color: #d6e96a;
   }
   
   .cards__container {
+    background-color: #fff;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -26,6 +28,7 @@ cards {
   }
   
   .cards__item {
+    
     display: flex;
     flex: 1;
     margin: 0 1rem;
@@ -90,11 +93,12 @@ cards {
 }
 
 .cards__item__info {
+  background-color: #edfa75;
   padding: 20px 30px 30px;
 }
 
 .cards__item__text {
-  color: #fff;
+  color: black;
   font-size: 18px;
   line-height: 24px;
 }

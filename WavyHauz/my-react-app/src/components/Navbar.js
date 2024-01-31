@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Dropdown from './pages/Dropdown';
  
+ 
 function Navbar() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
@@ -64,8 +65,7 @@ function Navbar() {
               <Link
                 to='/About'
                 className='nav-links'
-                onClick={closeMobileMenu}
-              >
+                onClick={closeMobileMenu} >
                 About
               </Link>
             </li>
@@ -74,7 +74,7 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
             >
               <Link
-                to='/Products'
+                to='/GourmetCookies'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -91,19 +91,8 @@ function Navbar() {
                 Custom Orders
               </Link>
             </li>
-            
-          
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+
         </div>
       </nav>
     </>

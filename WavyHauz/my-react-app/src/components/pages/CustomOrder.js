@@ -5,7 +5,8 @@ import Navbar from '../Navbar';
 import Footer from '../Footer';
 import './CustomOrder.css';
 import emailjs from '@emailjs/browser';
-
+import App from '../Alert';
+import AlertMessage from '../Alert';
 
 
 const CustomOrder = () => {
@@ -24,11 +25,10 @@ const CustomOrder = () => {
   };
 
     return (
+    
      <div className='custom-container'>
-        <h1>
-          !All custom orders should be placed A WEEK in advance, as they come second priority to regular orders,
-          especially if they are not on the regular menu for the month!
-        </h1>
+      <AlertMessage />
+        
         <section>
             <div className="container">
                 <h2 className='--text-center'>Place Order</h2>
@@ -54,7 +54,7 @@ const CustomOrder = () => {
                 <div className='notice-container'>
                 <h3>
                 If you're receiving your custom order in person,
-                 please give a the date in which you expect your order
+                 please give a date in which you expect your order
                   (allow at least 1 week for your order to be ready) all customer orders may not be accepted,
                    if we can not do your custom order we will reach out 24-48hrs after you've submitted your order & let you know.
                 </h3>
@@ -63,6 +63,7 @@ const CustomOrder = () => {
         </section>
         <Footer/>
       </div>
+     
     );
   };
 
