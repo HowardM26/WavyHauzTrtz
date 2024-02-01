@@ -31,7 +31,7 @@ const CustomOrder = () => {
         
         <section>
             <div className="container">
-                <h2 className='--text-center'>Place Order</h2>
+                <h2 className='--text-center'>Place Order Here</h2>
                 <form ref={form} onSubmit={sendEmail} className='--form-control--card--flex-center--dir-column' >
                     <input type='text'
                     placeholder='Full Name'
