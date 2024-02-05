@@ -8,6 +8,7 @@ function Cards() {
     <div className='cards'>
       <h1>Gourmet Cookies</h1>
       <div className='cards__container'>
+        <h1>Click picture to checkout</h1>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
