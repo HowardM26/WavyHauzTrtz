@@ -19,7 +19,7 @@ if (show){
 }  
 return(  
   <>  
-  <Button className='p-3 m-3' variant='primary' onClick={() => setShow(true)}>Show Alert</Button>  
+  <Button className='p-3 m-3' variant='primary' onClick={() => setShow(true)}>Order Instructions</Button>  
   </>  
 )  
 }  
