@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "825434e5769409f9d6712c84c1d55cb3",
+    "revision": "20fa364bcee82e6fdf387143273a4b37",
     "url": "/WavyHauzTrts.github.io/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WavyHauzTrts.github.io/static/css/2.6f2db2d8.chunk.css"
   },
   {
-    "revision": "9b7baee665af774b7d56",
-    "url": "/WavyHauzTrts.github.io/static/css/main.8db71fd6.chunk.css"
+    "revision": "8259845a2351400142d2",
+    "url": "/WavyHauzTrts.github.io/static/css/main.cc4f9027.chunk.css"
   },
   {
     "revision": "05bd4e1333b790b34261",
     "url": "/WavyHauzTrts.github.io/static/js/2.a6ee664a.chunk.js"
   },
   {
-    "revision": "9b7baee665af774b7d56",
+    "revision": "8259845a2351400142d2",
     "url": "/WavyHauzTrts.github.io/static/js/main.89bee83b.chunk.js"
   },
   {
