@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/WavyHauzTrts.github.io/precache-manifest.5e36c787346c88d4c3d33416737f9a43.js"
+  "/WavyHauzTrts.github.io/precache-manifest.576ba30b604b31e7a841adc74f8e293a.js"
 );
 
 self.addEventListener('message', (event) => {
