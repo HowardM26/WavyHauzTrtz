@@ -45,17 +45,4 @@ export const Button = ({
   );
 };
 
-function enterButton() {
-  return (
-    <Link to='/' className='Enter'>
-   
-      <button 
-      onClick={enterButton}>
-      
-      Press To Enter</button>
-      
- </Link>
-  );
-};
 
-export default enterButton;

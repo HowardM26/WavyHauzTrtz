@@ -10,22 +10,9 @@ function HeroSection() {
       <h1>Welcome To WavyHauzTrts</h1>
       <p>Join the Wave</p>
       <div className='hero-btns'>
-        <Button
-          className='hero-btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          Purchase
-        </Button>
-        <Button
-          className='hero-btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('what would you like?')}
-        >
-          Subscribe for updates
-          <i class="fa-solid fa-user-plus"></i>
-        </Button>
+       
+       
+   
       </div>
     </div>
   );

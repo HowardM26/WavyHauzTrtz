@@ -9,7 +9,6 @@ import Home from './components/pages/Home';
 import GourmetCookies from './components/pages/GourmetCookies';
 import CustomOrder from './components/pages/CustomOrder';
 import withSplashScreen from './components/withSplashScreen'; 
-import enterButton from './components/Button';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

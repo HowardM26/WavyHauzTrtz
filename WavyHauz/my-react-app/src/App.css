@@ -1,5 +1,5 @@
 html, body{
-  background-image: url('/WavyHauzTrts_pics/90s\ theme.jpeg');
+  background-image: url("retro.jpg");
   background-position:left;
   
   margin: 0%;
@@ -48,14 +48,14 @@ html, body{
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #fff;
+   
     font-size: 100px;
   }
   .sign-up {background-image: url('/images/img-8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    
     font-size: 100px;
   }
 
