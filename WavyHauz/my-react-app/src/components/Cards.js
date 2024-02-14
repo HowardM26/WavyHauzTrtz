@@ -12,14 +12,14 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-             src="src/WavyHauzTrts_pics/Ohhhhhhreeooos.jpeg"
+             src="src/WavyHauzTrts_pics/Ohhhhhhreeooos.jpg"
              text='Mouthwatering cookies and creme flavor! $2.50'
              label='Sweet'
              path='https://square.link/u/BcG1w0pd'
              
             />
             <CardItem
-              src='/WavyHauzTrts_pics/Macadamia Madness.jpeg'
+              src='/WavyHauzTrts_pics/Macadamia Madness.jpg'
               text='Chewy buttery cookie with white chocolate chunks, crunchy macadamia nuts and raspberry jam?? $2.75'
               label='sweet'
               path='https://square.link/u/wP4yqldW'
@@ -27,13 +27,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='/WavyHauzTrts_pics/Salty Scotch.jpeg'
+              src='/WavyHauzTrts_pics/Salty Scotch.jpg'
               text='You have to taste it to believe it $2'
               label='Sweet/Savory'
               path='https://square.link/u/XOAF5ToH'
             />
             <CardItem
-              src='/WavyHauzTrts_pics/Goldies.jpeg'
+              src='/WavyHauzTrts_pics/Goldies.jpg'
               text='Goldie $2.50'
               label='Hearty'
               path='https://square.link/u/s1XgAX6c'
