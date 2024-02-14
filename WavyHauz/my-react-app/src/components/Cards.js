@@ -12,7 +12,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-             src='/WavyHauzTrts_pics/Ohhhhhhreeooos.jpeg'
+             src="src/WavyHauzTrts_pics/Ohhhhhhreeooos.jpeg"
              text='Mouthwatering cookies and creme flavor! $2.50'
              label='Sweet'
              path='https://square.link/u/BcG1w0pd'
