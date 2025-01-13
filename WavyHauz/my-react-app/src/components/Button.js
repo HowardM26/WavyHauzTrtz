@@ -1,22 +1,9 @@
-// import React from 'react';
-// import './Button.css';
-// import { Link } from 'react-router-dom';
-
-// export function Button() {
-//   return (
-//     <Link to='sign-up'>
-//       <button className='btn'>Sign Up</button>
-//     </Link>
-//   );
-// }
-
 import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
-import { type } from '@testing-library/user-event/dist/type';
+import PropTypes from 'prop-types';
 
-const STYLES = ['btn--primary', 'btn--outline', 'btn--test'];
-
+const STYLES = ['btn--primary', 'btn--outline', 'btn--test', 'Enter']; // Added 'Enter' class to the styles array
 const SIZES = ['btn--medium', 'btn--large'];
 
 export const Button = ({
@@ -45,4 +32,12 @@ export const Button = ({
   );
 };
 
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+  type: PropTypes.string.isRequired,
+  onClick: PropTypes.func,
+  buttonStyle: PropTypes.oneOf(STYLES),
+  buttonSize: PropTypes.oneOf(SIZES)
+};
 
+export default Button;

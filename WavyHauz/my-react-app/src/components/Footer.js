@@ -15,9 +15,9 @@ function Footer() {
         </p>
         
       </section>
-      <div class='footer-links'>
+      <div className='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/About'>What is WavyHauz?</Link>
             
@@ -25,7 +25,7 @@ function Footer() {
             
             <Link to='/'>Nutrition facts(COMING SOON)</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support(COMING SOON)</Link>
@@ -34,14 +34,14 @@ function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Other</h2>
             <Link to='/'>Submit a review</Link>
             <Link to='/'>Join the wave</Link>
             
             <Link to='/'>Merch(COMING SOON)</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='https://www.instagram.com/wavyhauztrts/?igshid=OGQ5ZDc2ODk2ZA%3D%3D'>Instagram</Link>
             <Link to='https://www.facebook.com/Wavyhauxtrtz?mibextid=LQQJ4d'>Facebook</Link>
@@ -50,23 +50,23 @@ function Footer() {
           </div>
         </div>
       </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
+      <section className='social-media'>
+        <div className='social-media-wrap'>
+          <div className='footer-logo'>
             <Link to='/' className='social-logo'>
               WavyHauz
-              <i class="fa-solid fa-cookie-bite"></i>
+              <i className="fa-solid fa-cookie-bite"></i>
             </Link>
           </div>
-          <small class='website-rights'>WavyHauz © 2023</small>
-          <div class='social-icons'>
+          <small className='website-rights'>WavyHauz © 2023</small>
+          <div className='social-icons'>
             <Link
               class='social-icon-link facebook'
               to='https://www.facebook.com/Wavyhauxtrtz?mibextid=LQQJ4d'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i className='fab fa-facebook-f' />
             </Link>
             <Link
               class='social-icon-link instagram'
@@ -74,7 +74,7 @@ function Footer() {
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i className='fab fa-instagram' />
             </Link>
             <Link
               class='social-icon-link youtube'
@@ -82,7 +82,7 @@ function Footer() {
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i className='fab fa-youtube' />
             </Link>
             
             <Link
@@ -91,7 +91,7 @@ function Footer() {
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i className='fab fa-linkedin' />
             </Link>
           </div>
         </div>

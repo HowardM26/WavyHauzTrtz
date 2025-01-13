@@ -8,30 +8,37 @@ function Dropdown() {
 
     const handleClick = () => setClick(!click);
 
-    return(
+    return (
         <>
-        <ul
-        onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' :
-    'dropdown-menu'}
-    >
-        {MenuItems.map((item, index) => {
-            return (
-                <li key={index}>
-                    <Link
-                    className={item.cName}
-                    to={item.path}
-                    onClick={() => setClick(false)}
-                    >
-                        {item.title}
-                    </Link>
-                </li>
-            );
-        })}
-    </ul>
-        </>
-    )
-}
+            <button
+                className="dropdown-toggle"
+                onClick={handleClick}
+                aria-expanded={click ? "true" : "false"} // Accessibility improvement
+            >
+                Menu
+            </button>
 
+            <ul
+                onClick={handleClick}
+                className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+                aria-hidden={!click} // Helps screen readers know if menu is open
+            >
+                {MenuItems.map((item, index) => {
+                    return (
+                        <li key={index}>
+                            <Link
+                                className={item.cName}
+                                to={item.path}
+                                onClick={() => setClick(false)} // Close dropdown after item is selected
+                            >
+                                {item.title}
+                            </Link>
+                        </li>
+                    );
+                })}
+            </ul>
+        </>
+    );
+}
 
 export default Dropdown;

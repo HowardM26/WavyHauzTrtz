@@ -15,10 +15,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/GourmetCookies" element={<GourmetCookies />} />
-        <Route path="/CustomOrder" element={<CustomOrder />} />
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="gourmetcookies" element={<GourmetCookies />} />
+        <Route path="customorder" element={<CustomOrder />} />
+        <Route path="*" element={<div>404 - Page Not Found</div>} />
       </Routes>
     </Router>
   );
