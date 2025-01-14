@@ -1,25 +1,35 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import './GourmetItem.css';
 
-function GourmetItem(props) {
+function GourmetItem({ path, label, src, text }) {
   return (
-    <>
-      <li className='Gourmet__item'>
-        <Link className='Gourmet__item__link' to={props.path}>
-          <figure className='Gourmet__item__pic-wrap' data-category={props.label}>
-            <img
-              className='Gourmet__item__img'
-              alt='Travel Image'
-              src={props.src}
-            />
-          </figure>
-          <div className='Gourmet__item__info'>
-            <h5 className='Gourmet__item__text'>{props.text}</h5>
-          </div>
-        </Link>
-      </li>
-    </>
+    <div className="gourmet-item">
+      <a href={path}>
+        <img src={src} alt={label} />
+        <div className="gourmet-item-info">
+          <h5>{label}</h5>
+          <p>{text}</p>
+        </div>
+      </a>
+    </div>
   );
 }
+
+// PropTypes validation
+GourmetItem.propTypes = {
+  path: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};
+
+// Default props
+GourmetItem.defaultProps = {
+  path: '/',
+  label: 'Default Label',
+  src: 'default-image.jpg',
+  text: 'Default Text',
+};
 
 export default GourmetItem;

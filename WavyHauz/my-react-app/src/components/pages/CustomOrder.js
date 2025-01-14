@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import '../../App.css';
-import Navbar from '../Navbar';
 import Footer from '../Footer';
 import './CustomOrder.css';
 import emailjs from '@emailjs/browser';
@@ -36,7 +35,6 @@ const CustomOrder = () => {
 
   return (
     <div className="custom-container">
-      <Navbar />
       
       {/* Show Alert Message if there is any */}
       {message && <AlertMessage message={message} variant={messageType} />}
