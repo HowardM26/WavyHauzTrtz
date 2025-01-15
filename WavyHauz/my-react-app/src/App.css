@@ -21,15 +21,17 @@ html, body {
 
 /* Section Styles */
 .home,
-.about,
 .products,
 .sign-up {
   display: flex;
-  height: 90vh;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+  height: 100vh; /* Ensure full viewport height for carousel */
+  width: 100%; /* Ensure full width for carousel */
 }
+
 
 /* About Section */
 .about {

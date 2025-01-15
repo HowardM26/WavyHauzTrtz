@@ -1,39 +1,73 @@
-  
-  .hero-container {
-    
-    height: auto;
-    width: auto;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    
-  }
-  
-  .hero-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: 300px;
-  }
-  
-  .hero-container > p {
-    text-align: center;
-    margin-top: 20px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .hero-btns  {
-    margin-top: 100px;
-  }
-  
-  .hero-btns .btn {
-    margin: 20px 10px
+/* Hero Container */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+ 
+}
 
+/* Heading Style */
+.hero-container > h1 {
+  color: black;
+  font-family:'Architexts Daughter Regular' ;
+  font-size: 4rem; /* Responsive font size */
+  margin-top: 300px;
+  text-align: center;
+}
+
+/* Paragraph Style */
+.hero-container > p {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-size: 2rem; /* Responsive font size */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Button container styling */
+.hero-btns {
+  margin-top: 50px; /* Adjusted top margin */
+  display: flex;
+  justify-content: center;
+}
+
+/* Button Styling */
+.hero-btns .btn {
+  margin: 20px 10px;
+  padding: 12px 24px;
+  background-color: black; /* Button background color */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btns .btn:hover {
+  background-color: #e03535; /* Hover effect */
+}
+
+/* Font Awesome Icon */
+.fa-play-circle {
+  margin-left: 8px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 2.5rem; /* Smaller font for mobile */
   }
-  
-  .fa-play-circle {
-    margin-left: 8px;
+
+  .hero-container > p {
+    font-size: 1.5rem; /* Smaller font for mobile */
   }
-  
+
+  .hero-btns .btn {
+    font-size: 1rem; /* Adjust button font size */
+    padding: 10px 20px; /* Adjust button size */
+  }
+}

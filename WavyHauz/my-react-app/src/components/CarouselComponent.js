@@ -1,45 +1,58 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Slider from 'react-slick';
+import './Carousel.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const CarouselComponent = () => {
+//Import images from the src folder
+import Ohhhreeeos from '../Ohhhhhhreeooos.jpg';
+import Apple_Spice from '../Apple_Spice.jpg';
+
+
+const CustomCarousel = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    fade: true,
+  };
+
+  const items = [
+    {
+      image:
+        Ohhhreeeos,
+      alt: "Ohreo *****",
+      title: "Ohreo *****",
+      description: "Delicious chocolate cookies with cream filling.",
+    },
+    {
+      image:
+        Apple_Spice,
+      alt: "Apple Spice",
+      title: "Apple Spice",
+      description: "A delightful taste of spiced apples.",
+    },
+  ];
+
   return (
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/WavyHauzTrts_pics/Ohhhhhhreeooos.jpg"
-          alt="Ohhhhhhreeooos"
-        />
-        <Carousel.Caption>
-          <h3>Ohhhhhhreeooos</h3>
-          <p>This is a description for the first slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/WavyHauzTrts_pics/Apple_Spice.jpg"
-          alt="Apple Spice"
-        />
-        <Carousel.Caption>
-          <h3>Apple Spice</h3>
-          <p>This is a description for the second slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="/WavyHauzTrts_pics/Macadamia_Madness.jpg"
-          alt="Macadamia Madness"
-        />
-        <Carousel.Caption>
-          <h3>Macadamia Madness</h3>
-          <p>This is a description for the third slide.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <div className="carousel-container">
+      <Slider {...settings}>
+        {items.map((item, index) => (
+          <div key={index} className="carousel-slide">
+            <img src={item.image} alt={item.alt} className="carousel-image" />
+            <div className="carousel-caption">
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </div>
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 };
 
-export default CarouselComponent;
+export default CustomCarousel;

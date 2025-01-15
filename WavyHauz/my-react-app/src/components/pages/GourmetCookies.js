@@ -1,19 +1,20 @@
 import React from 'react';
 import '../../App.css';
-import Dropdown from './Dropdown';
 import Footer from '../Footer';
-import GourmetItem from './GourmetItem';
-import './GourmetCookies.css'
+import './GourmetCookies.css';
 import Cards from '../Cards';
-
 
 function GourmetCookies() {
   return (
     <>
-    <Cards />
-    <Footer />
+      <div className="gourmet-header">
+        <h1>Our Gourmet Cookies</h1>
+        <p>Discover the finest selection of handcrafted cookies!</p>
+      </div>
+      <Cards />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default GourmetCookies;

@@ -1,0 +1,15 @@
+/* Hero Section Styling */
+.hero-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  /* Carousel Styling (Optional) */
+  .carousel-section {
+    padding-top: 50px; /* Space between Hero Section and Carousel */
+  }
+  
