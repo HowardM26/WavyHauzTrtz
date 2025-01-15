@@ -64,9 +64,11 @@ h1 {
 .gourmet__item__pic-wrap::after {
   content: attr(data-category);
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   margin-left: 10px;
-  padding: 6px 8px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-transform: uppercase;
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
@@ -87,7 +89,8 @@ h1 {
   height: 100%;
   max-height: 100%;
   object-fit: cover;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
+  background: #f4f4f4;
 }
 
 .gourmet__item__img:hover {

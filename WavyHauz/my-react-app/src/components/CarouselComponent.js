@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 //Import images from the src folder
 import Ohhhreeeos from '../Ohhhhhhreeooos.jpg';
 import Apple_Spice from '../Apple_Spice.jpg';
-import Banana_pudding from '../Banana_pudding.jpg;'
+import Banana_pudding from '../Banana_pudding.jpg';
 
 
 const CustomCarousel = () => {
