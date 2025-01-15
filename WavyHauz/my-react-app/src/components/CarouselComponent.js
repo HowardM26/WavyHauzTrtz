@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 //Import images from the src folder
 import Ohhhreeeos from '../Ohhhhhhreeooos.jpg';
 import Apple_Spice from '../Apple_Spice.jpg';
+import Banana_pudding from '../Banana_pudding.jpg;'
 
 
 const CustomCarousel = () => {
@@ -35,6 +36,13 @@ const CustomCarousel = () => {
       alt: "Apple Spice",
       title: "Apple Spice",
       description: "A delightful taste of spiced apples.",
+    },
+    {
+      image:
+        Banana_pudding,
+      alt: "Banana Pudding",
+      title: "Banana Pudding",
+      description: "Soft banana flavored cookie filled with white chocolate chips, vanilla wafers & topped with vanilla glaze.",
     },
   ];
 
