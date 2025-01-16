@@ -67,6 +67,40 @@ width: 160px;
 box-sizing: border-box;
 }
 
+.footer-link-items .location {
+
+
+
+width: 160px;
+box-sizing: border-box;
+  color: white;
+}
+
+.footer-link-items .hours {
+  margin-top: 10px;
+  line-height: 1.5;
+  color: #faf3f3; /* Adjust color as needed */
+  font-size: 14px; /* Adjust font size if required */
+}
+
+footer-link-items .location p,
+.footer-link-items .hours p {
+  margin: 5px 0;
+}
+
+.footer-link-items .location a {
+  color: #00bfff; /* Make the "Get directions" link stand out */
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .footer-link-items .hours {
+    font-size: 12px;
+  }
+}
+
+
 .footer-link-items h2 {
 margin-bottom: 16px;
 }
@@ -120,6 +154,7 @@ justify-content: space-between;
 align-items: center;
 width: 240px;
 }
+
 
 .social-logo {
 color: #fff;

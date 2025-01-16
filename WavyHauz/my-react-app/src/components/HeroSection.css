@@ -1,12 +1,17 @@
 /* Hero Container */
 .hero-container {
-  display: flex;
+background: rgba(255, 255, 255, 0.8);
+display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; /* Center horizontally */
-  height: 100vh; /* Full viewport height */
-  width: 100%;
- 
+  height: 70vh; /* Full viewport height */
+  width: 90%; /* Set a percentage width for a contained Look */
+  max-width: 1200px; /* Optional: Limit the maximum width */
+  margin: 0 auto; /* Center the container horizontally within the page */
+  padding: 20px; /* Add some inner spacing */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a polished effect*/
+  border-radius: 8px;/* Optional: Add rounded corners */
 }
 
 /* Heading Style */
@@ -14,7 +19,7 @@
   color: black;
   font-family:'Architexts Daughter Regular' ;
   font-size: 4rem; /* Responsive font size */
-  margin-top: 300px;
+  margin-top: 30px;
   text-align: center;
 }
 
