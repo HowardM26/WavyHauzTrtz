@@ -1,48 +1,74 @@
-import React from 'react';
-import Slider from 'react-slick';
-import './Carousel.css';
+import React from "react";
+import Slider from "react-slick";
+import "./Carousel.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-//Import images from the src folder
-import Ohhhreeeos from '../Ohhhhhhreeooos.jpg';
-import Apple_Spice from '../Apple_Spice.jpg';
-import Banana_pudding from '../Banana_pudding.jpg';
-
+// Import images from the src folder
+import Ohhhreeeos from "../Ohhhhhhreeooos.jpg";
+import Apple_Spice from "../Apple_Spice.jpg";
+import Banana_pudding from "../Banana_pudding.jpg";
+import Burgundy from "../Burgundy.jpg";
 
 const CustomCarousel = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
+    speed: 5500, // Slow horizontal scroll
+    slidesToShow: 4, // Number of logos visible at once
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    fade: true,
+    autoplaySpeed: 0, // Continuous scroll
+    cssEase: "linear", // Smooth animation
+    pauseOnHover: true, //Pauses autoplay when hovering over the carousel
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const items = [
     {
-      image:
-        Ohhhreeeos,
-      alt: "Ohreo *****",
-      title: "Ohreo *****",
-      description: "Delicious chocolate cookies with cream filling.",
+      image: Ohhhreeeos,
+      //alt: "Ohreo *****",
+      //title: "Ohreo *****",
+      //description: "Delicious chocolate cookies with cream filling.",
     },
     {
-      image:
-        Apple_Spice,
-      alt: "Apple Spice",
+      image: Apple_Spice,
+      /*alt: "Apple Spice",
       title: "Apple Spice",
-      description: "A delightful taste of spiced apples.",
+      description: "A delightful taste of spiced apples.",*/
     },
     {
-      image:
-        Banana_pudding,
-      alt: "Banana Pudding",
+      image: Banana_pudding,
+      /*alt: "Banana Pudding",
       title: "Banana Pudding",
-      description: "Soft banana flavored cookie filled with white chocolate chips, vanilla wafers & topped with vanilla glaze.",
+      description:
+        "Soft banana flavored cookie filled with white chocolate chips, vanilla wafers & topped with vanilla glaze.",*/
+    },
+    {
+      image: Burgundy,
+      /*alt: "Burgundy",
+      title: "Burgundy",
+      description:
+        "Soft & rich red velvet cookie with a made from scratch cream cheese icing center.",*/
     },
   ];
 

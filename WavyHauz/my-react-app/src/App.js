@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import About from './components/pages/About';
 import Home from './components/pages/Home';
 import GourmetCookies from './components/pages/GourmetCookies';
+import Muffins from './components/pages/Muffins';
 import CustomOrder from './components/pages/CustomOrder';
 import withSplashScreen from './components/withSplashScreen';
 
@@ -17,6 +18,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="gourmetcookies" element={<GourmetCookies />} />
+        <Route path="muffins" element={<Muffins />} />
         <Route path="customorder" element={<CustomOrder />} />
         <Route path="*" element={<div>404 - Page Not Found</div>} />
       </Routes>
@@ -25,3 +27,4 @@ function App() {
 }
 
 export default withSplashScreen(App);
+

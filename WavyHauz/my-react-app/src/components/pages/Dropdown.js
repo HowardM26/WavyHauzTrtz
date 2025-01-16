@@ -15,7 +15,7 @@ function Dropdown() {
                 onClick={handleClick}
                 aria-expanded={click ? "true" : "false"} // Accessibility improvement
             >
-                Menu
+                Treats
             </button>
 
             <ul

@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
 import './GourmetCookies.css';
-import Cards from '../Cards';
+import Cards from '../CookieCards';
 
 function GourmetCookies() {
   return (

@@ -1,19 +1,19 @@
 import React from 'react';
-import './Cards.css';
+import './CookieCards.css';
 import CardItem from './CardItem';
 
 // Import local images
 import Ohhhhhhreeooos from '../Ohhhhhhreeooos.jpg';
-import MacadamiaMadness from '../Macadamia_Madness.jpg';
+import Snickerdoodle from '../Snickerdoodle.jpg';
 import Burgundy from '../Burgundy.jpg';
 import Banana_pudding from '../Banana_pudding.jpg';
 
 function Cards() {
   return (
     <div className="cards">
-      <h1>Gourmet Cookies</h1>
+      <h1>Click picture to checkout</h1>
       <div className="cards__container">
-        <h1>Click picture to checkout</h1>
+        
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
@@ -22,13 +22,13 @@ function Cards() {
 
 Soft, Airy, & slightly crunchy cookie made from a signature dough with Hershey's Cookies N Creme & Oreo pieces $3.50"
               label="Sweet"
-              path="https://square.link/u/BcG1w0pd"
+              path="https://wavyhauz.square.site/product/ohreo-/51?cs=true&cst=custom"
             />
             <CardItem
-              src={MacadamiaMadness}
-              text="Chewy buttery cookie with white chocolate chunks, crunchy macadamia nuts and raspberry jam?? $2.75"
+              src={Snickerdoodle}
+              text="Classic snickerdoodle cookie double coated in cinnamon sugar $2"
               label="Sweet"
-              path="https://square.link/u/wP4yqldW"
+              path="https://wavyhauz.square.site/product/snickerdoodle/15?cs=true&cst=custom"
             />
           </ul>
           <ul className="cards__items">
@@ -36,13 +36,13 @@ Soft, Airy, & slightly crunchy cookie made from a signature dough with Hershey's
               src={Burgundy}
               text="Soft & rich red velvet cookie with a made from scratch cream cheese icing center $2"
               label="Sweet/Savory"
-              path="https://square.link/u/XOAF5ToH"
+              path="https://wavyhauz.square.site/product/burgundy/11?cs=true&cst=custom"
             />
             <CardItem
               src={Banana_pudding}
               text="Soft banana flavored cookie filled with white chocolate chips, vanilla wafers & topped with vanilla glaze $2.50"
               label="Hearty"
-              path="https://square.link/u/s1XgAX6c"
+              path="https://wavyhauz.square.site/product/banana-pudding-/41?cs=true&cst=custom"
             />
           </ul>
         </div>

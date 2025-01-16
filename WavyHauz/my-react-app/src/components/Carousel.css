@@ -1,21 +1,26 @@
 .carousel-container {
-  width: 80%;
-  margin: 0 auto;
+  width: 100%; /* Makes the container take up the full width of the viewport */
+  height: 100vh; /* Optional: if you want the carousel to also take up the full height of the viewport */
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents any overflow content from showing */
 }
 
 .carousel-slide {
   position: relative;
   text-align: center;
+  padding: 0 15px;
+  height: 100%;
 }
 
 .carousel-image {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 10px;
+  width: 100%; /* Ensures the image stretches to fill the container */
+  height: 250px; /* Ensures the image height is also stretched */
+  object-fit: cover; /* Ensures the image scales and maintains aspect ratio */
+  border-radius: 10px; /* Removes any rounded corners */
 }
 
-.carousel-caption {
+/*.carousel-caption {
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -24,6 +29,11 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}*/
+
+.carousel-slide:hover .carousel-caption {
+  opacity: 1; /* Makes the caption more prominent on hover */
 }
 
 .carousel-caption h3 {
@@ -34,4 +44,20 @@
 .carousel-caption p {
   font-size: 1rem;
   margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+  .carousel-container {
+    width: 100vw; /* Full width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 100vw; /* Full width for smaller screens */
+  }
+  .carousel-caption {
+    padding: 15px;
+    bottom: 5%;
+  }
 }

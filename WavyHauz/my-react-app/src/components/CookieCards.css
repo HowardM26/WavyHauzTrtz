@@ -1,6 +1,6 @@
 cards {
     padding: 4rem;
-    
+    background: #fff;
   }
   
   .cards > h1 {
@@ -9,7 +9,7 @@ background-color: plum;    text-align: center;
   }
   
   .cards__container {
-    background-color: #fff;
+    
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -48,6 +48,7 @@ background-color: plum;    text-align: center;
   }
   
   .cards__item__pic-wrap {
+    
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -74,6 +75,7 @@ background-color: plum;    text-align: center;
   }
   
   .cards__item__img {
+    
     position: absolute;
     top: 0;
     right: 0;
@@ -93,11 +95,13 @@ background-color: plum;    text-align: center;
 }
 
 .cards__item__info {
+  
   background-color: #edfa75;
   padding: 20px 30px 30px;
 }
 
 .cards__item__text {
+  
   color: black;
   font-size: 18px;
   line-height: 24px;
