@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/WavyHauzTrts.github.io/static/css/main.094bd436.chunk.css",
-    "main.js": "/WavyHauzTrts.github.io/static/js/main.dd3983f8.chunk.js",
-    "main.js.map": "/WavyHauzTrts.github.io/static/js/main.dd3983f8.chunk.js.map",
-    "runtime-main.js": "/WavyHauzTrts.github.io/static/js/runtime-main.35f96372.js",
-    "runtime-main.js.map": "/WavyHauzTrts.github.io/static/js/runtime-main.35f96372.js.map",
-    "static/css/2.cc82f8aa.chunk.css": "/WavyHauzTrts.github.io/static/css/2.cc82f8aa.chunk.css",
-    "static/js/2.6ed180ac.chunk.js": "/WavyHauzTrts.github.io/static/js/2.6ed180ac.chunk.js",
-    "static/js/2.6ed180ac.chunk.js.map": "/WavyHauzTrts.github.io/static/js/2.6ed180ac.chunk.js.map",
+    "main.css": "/WavyHauzTrts.github.io/static/css/main.f145ae06.css",
+    "main.js": "/WavyHauzTrts.github.io/static/js/main.37087326.js",
+    "static/media/Logo1__1.jpg": "/WavyHauzTrts.github.io/static/media/Logo1__1.8cd1623a8e82733fc75f.jpg",
+    "static/media/Snickerdoodle.jpg": "/WavyHauzTrts.github.io/static/media/Snickerdoodle.6f0fe04b054df97c66d5.jpg",
+    "static/media/Burgundy.jpg": "/WavyHauzTrts.github.io/static/media/Burgundy.39e5e3236ebeba12f4ae.jpg",
+    "static/media/Banana_pudding.jpg": "/WavyHauzTrts.github.io/static/media/Banana_pudding.5b45fb1de79c6086edca.jpg",
+    "static/media/Ohhhhhhreeooos.jpg": "/WavyHauzTrts.github.io/static/media/Ohhhhhhreeooos.a4c18df1393e975418d9.jpg",
+    "static/media/Apple_Spice.jpg": "/WavyHauzTrts.github.io/static/media/Apple_Spice.040813326a154f25485b.jpg",
+    "static/media/retro.jpg": "/WavyHauzTrts.github.io/static/media/retro.a9ec8df52fddba343b4b.jpg",
+    "static/media/slick.svg": "/WavyHauzTrts.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/WavyHauzTrts.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/WavyHauzTrts.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/WavyHauzTrts.github.io/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/WavyHauzTrts.github.io/index.html",
-    "precache-manifest.89a19f270557d8a01e497ac1b57c5be9.js": "/WavyHauzTrts.github.io/precache-manifest.89a19f270557d8a01e497ac1b57c5be9.js",
-    "service-worker.js": "/WavyHauzTrts.github.io/service-worker.js",
-    "static/css/2.cc82f8aa.chunk.css.map": "/WavyHauzTrts.github.io/static/css/2.cc82f8aa.chunk.css.map",
-    "static/css/main.094bd436.chunk.css.map": "/WavyHauzTrts.github.io/static/css/main.094bd436.chunk.css.map",
-    "static/js/2.6ed180ac.chunk.js.LICENSE.txt": "/WavyHauzTrts.github.io/static/js/2.6ed180ac.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/WavyHauzTrts.github.io/static/media/retro.0d05f4df.jpg"
+    "main.f145ae06.css.map": "/WavyHauzTrts.github.io/static/css/main.f145ae06.css.map",
+    "main.37087326.js.map": "/WavyHauzTrts.github.io/static/js/main.37087326.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.35f96372.js",
-    "static/css/2.cc82f8aa.chunk.css",
-    "static/js/2.6ed180ac.chunk.js",
-    "static/css/main.094bd436.chunk.css",
-    "static/js/main.dd3983f8.chunk.js"
+    "static/css/main.f145ae06.css",
+    "static/js/main.37087326.js"
   ]
 }
