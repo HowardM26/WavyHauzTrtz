@@ -7,6 +7,17 @@
     align-items: center;
     
   }
+  .Featured-Item {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Optional */
+  }
+  
+  .Featured-Item h1 {
+    color: #333;
+  }
+  
   
   /* Carousel Styling (Optional) */
   .carousel-section {

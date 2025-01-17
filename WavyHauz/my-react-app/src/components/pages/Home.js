@@ -10,9 +10,9 @@ function Home() {
     <>
       {/* Hero Section */}
       <HeroSection />
-      
+
       <div className='Featured-Item'>
-        <h1> Featured Item</h1>
+        <h1> Featured Items</h1>
       </div>
 
       {/* Carousel Section */}
