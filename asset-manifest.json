@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/WavyHauzTrts.github.io/static/css/main.f145ae06.css",
-    "main.js": "/WavyHauzTrts.github.io/static/js/main.37087326.js",
-    "static/media/Logo1__1.jpg": "/WavyHauzTrts.github.io/static/media/Logo1__1.8cd1623a8e82733fc75f.jpg",
-    "static/media/Snickerdoodle.jpg": "/WavyHauzTrts.github.io/static/media/Snickerdoodle.6f0fe04b054df97c66d5.jpg",
-    "static/media/Burgundy.jpg": "/WavyHauzTrts.github.io/static/media/Burgundy.39e5e3236ebeba12f4ae.jpg",
-    "static/media/Banana_pudding.jpg": "/WavyHauzTrts.github.io/static/media/Banana_pudding.5b45fb1de79c6086edca.jpg",
-    "static/media/Ohhhhhhreeooos.jpg": "/WavyHauzTrts.github.io/static/media/Ohhhhhhreeooos.a4c18df1393e975418d9.jpg",
-    "static/media/Apple_Spice.jpg": "/WavyHauzTrts.github.io/static/media/Apple_Spice.040813326a154f25485b.jpg",
-    "static/media/retro.jpg": "/WavyHauzTrts.github.io/static/media/retro.a9ec8df52fddba343b4b.jpg",
-    "static/media/slick.svg": "/WavyHauzTrts.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/WavyHauzTrts.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/WavyHauzTrts.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/WavyHauzTrts.github.io/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/WavyHauzTrts.github.io/index.html",
-    "main.f145ae06.css.map": "/WavyHauzTrts.github.io/static/css/main.f145ae06.css.map",
-    "main.37087326.js.map": "/WavyHauzTrts.github.io/static/js/main.37087326.js.map"
+    "main.css": "/WavyHauzTrtz/static/css/main.7a86e0ef.css",
+    "main.js": "/WavyHauzTrtz/static/js/main.9c2f998f.js",
+    "static/media/Logo1__1.jpg": "/WavyHauzTrtz/static/media/Logo1__1.8cd1623a8e82733fc75f.jpg",
+    "static/media/Snickerdoodle.jpg": "/WavyHauzTrtz/static/media/Snickerdoodle.6f0fe04b054df97c66d5.jpg",
+    "static/media/Burgundy.jpg": "/WavyHauzTrtz/static/media/Burgundy.39e5e3236ebeba12f4ae.jpg",
+    "static/media/Banana_pudding.jpg": "/WavyHauzTrtz/static/media/Banana_pudding.5b45fb1de79c6086edca.jpg",
+    "static/media/Ohhhhhhreeooos.jpg": "/WavyHauzTrtz/static/media/Ohhhhhhreeooos.a4c18df1393e975418d9.jpg",
+    "static/media/Apple_Spice.jpg": "/WavyHauzTrtz/static/media/Apple_Spice.040813326a154f25485b.jpg",
+    "static/media/retro.jpg": "/WavyHauzTrtz/static/media/retro.a9ec8df52fddba343b4b.jpg",
+    "static/media/slick.svg": "/WavyHauzTrtz/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/WavyHauzTrtz/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/WavyHauzTrtz/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/WavyHauzTrtz/index.html",
+    "static/media/slick.woff": "/WavyHauzTrtz/static/media/slick.295183786cd8a1389865.woff",
+    "main.7a86e0ef.css.map": "/WavyHauzTrtz/static/css/main.7a86e0ef.css.map",
+    "main.9c2f998f.js.map": "/WavyHauzTrtz/static/js/main.9c2f998f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f145ae06.css",
-    "static/js/main.37087326.js"
+    "static/css/main.7a86e0ef.css",
+    "static/js/main.9c2f998f.js"
   ]
 }
