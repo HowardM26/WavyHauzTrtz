@@ -1,23 +1,23 @@
 /* Hero Container */
 .hero-container {
-background: rgba(255, 255, 255, 0.8);
-display: flex;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; /* Center horizontally */
   height: 70vh; /* Full viewport height */
-  width: 90%; /* Set a percentage width for a contained Look */
+  width: 90%; /* Set a percentage width for a contained look */
   max-width: 1200px; /* Optional: Limit the maximum width */
   margin: 0 auto; /* Center the container horizontally within the page */
   padding: 20px; /* Add some inner spacing */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a polished effect*/
-  border-radius: 8px;/* Optional: Add rounded corners */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for a polished effect */
+  border-radius: 8px; /* Optional: Add rounded corners */
 }
 
 /* Heading Style */
 .hero-container > h1 {
   color: black;
-  font-family:'Architexts Daughter Regular' ;
+  font-family: 'Architexts Daughter Regular', sans-serif;
   font-size: 4rem; /* Responsive font size */
   margin-top: 30px;
   text-align: center;
@@ -37,6 +37,7 @@ display: flex;
   margin-top: 50px; /* Adjusted top margin */
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; /* Ensures buttons wrap on smaller screens */
 }
 
 /* Button Styling */
@@ -52,6 +53,7 @@ display: flex;
   transition: background-color 0.3s ease;
 }
 
+/* Button Hover Effect */
 .hero-btns .btn:hover {
   background-color: #e03535; /* Hover effect */
 }

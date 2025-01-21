@@ -10,8 +10,14 @@
     justify-content: center;
     text-align: center;
     background-color: azure;
-    z-index: 9999; /* Makes sure splash screen is on top */
+    z-index: 9999; /* Keeps splash screen on top */
     transition: opacity 0.5s ease-out;
+    visibility: visible; /* Ensure it's visible by default */
+}
+
+.splash-screen.hidden {
+    opacity: 0; /* Fade out effect */
+    visibility: hidden; /* Ensure the element is completely hidden after fade-out */
 }
 
 .splash-screen p {
@@ -24,4 +30,19 @@
     margin-top: 20px;
     cursor: pointer;
     width: 100px; /* Adjust size of the image */
+    transition: transform 0.3s ease; /* Add a smooth scaling effect */
+}
+
+.splash-screen img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Accessibility improvements */
+.splash-screen p {
+    font-family: Arial, sans-serif; /* Ensure a readable font for better legibility */
+}
+
+/* Optional: Add background blur for the splash screen */
+.splash-screen {
+    backdrop-filter: blur(10px); /* Adds a blur effect behind the splash screen */
 }

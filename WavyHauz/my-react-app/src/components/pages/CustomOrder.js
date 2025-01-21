@@ -81,7 +81,8 @@ const CustomOrder = () => {
 
             {/* Show loading spinner while sending email */}
             <button type="submit" className="--btn --btn-primary">
-              {loading ? "Processing..." : "Place Order"}
+            {loading ? <span className="spinner"></span> : "Place Order"}
+
             </button>
           </form>
 

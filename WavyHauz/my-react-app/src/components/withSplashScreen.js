@@ -4,7 +4,7 @@ import './withSplashScreen.css';
 
 function SplashMessage() {
     return (
-        <div className="splash-screen">
+        <div className="splash-screen" aria-live='polite'>
             <p>
                 <strong>Please read before putting in orders</strong>
             </p>
@@ -18,7 +18,7 @@ function SplashMessage() {
                 If products arrive 3 or more days past the expected date, or if the box is damaged (resulting in items being damaged, 
                 smushed, opened, etc.), or if you are not satisfied with your order, a full refund will be issued OR you will be 
                 sent a new box with the same items. Customers requesting full refunds must send photos of damaged items to  
-                <a href="mailto:mctee1219@gmail.com">mctee1219@gmail.com</a>.
+                <a href="mailto:Wavyhzz93@gmail.com">Wavyhzz93@gmail.com</a>.
             </p>
             <p>
                 If you would like your order to arrive faster than 3 days, text your name, address, and order to 

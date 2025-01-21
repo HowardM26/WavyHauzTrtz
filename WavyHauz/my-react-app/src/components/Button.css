@@ -1,29 +1,44 @@
 :root {
-    --primary: #fff;
+  --primary: #fff;
+  --secondary: #242424;
 }
 
 .btn {
   padding: 8px 20px;
   border-radius: 2px;
-  outline: none;
   border: none;
+  outline: none;
   cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s ease;
 }
 
+/* Primary Button */
 .btn--primary {
   background-color: var(--primary);
-  color: #242424;
+  color: var(--secondary);
   border: 1px solid var(--primary);
 }
 
+.btn--primary:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: 1px solid var(--secondary);
+}
+
+/* Outline Button */
 .btn--outline {
-    background-color: transparent;
-    color: #fff;
-    padding: 8px 20px;
+  background-color: transparent;
+  color: var(--primary);
   border: 1px solid var(--primary);
-  transition: all 0.3s ease-out;
 }
 
+.btn--outline:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+/* Button Sizes */
 .btn--medium {
   padding: 8px 20px;
   font-size: 18px;
@@ -36,12 +51,17 @@
 
 .btn--large:hover,
 .btn--medium:hover {
-  transition: all 0.3s ease-out;
-  background: #fff;
-  color: #242424;
-  transition: 250ms;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
-.Enter{
-  background-color: #242424;
+/* Enter Button */
+.Enter {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.Enter:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
 }

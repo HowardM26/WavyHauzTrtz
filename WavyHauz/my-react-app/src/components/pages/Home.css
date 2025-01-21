@@ -1,26 +1,109 @@
 /* Hero Section Styling */
 .hero-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #21cff1, #1a73e8); /* Gradient background */
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.hero-container h1 {
+  font-size: 3rem; /* Large heading */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-container p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.hero-container button {
+  background-color: #fff;
+  color: #21cff1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-container button:hover {
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+/* Featured Item Styling */
+.Featured-Item {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Featured-Item h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.Featured-Item:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Carousel Section Styling */
+.carousel-section {
+  padding-top: 50px; /* Space between Hero Section and Carousel */
+  background-color: #f4f4f4; /* Light background for separation */
+}
+
+.carousel-section h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .hero-container h1 {
+    font-size: 2.5rem;
   }
+
+  .hero-container p {
+    font-size: 1rem;
+  }
+
   .Featured-Item {
-    text-align: center;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f8f9fa; /* Optional */
+    padding: 15px;
   }
-  
-  .Featured-Item h1 {
-    color: #333;
+}
+
+@media only screen and (max-width: 480px) {
+  .hero-container h1 {
+    font-size: 2rem;
   }
-  
-  
-  /* Carousel Styling (Optional) */
-  .carousel-section {
-    padding-top: 50px; /* Space between Hero Section and Carousel */
+
+  .hero-container button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
   }
-  
+
+  .Featured-Item {
+    margin: 30px auto;
+    padding: 10px;
+  }
+}

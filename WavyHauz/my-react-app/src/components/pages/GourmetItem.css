@@ -1,7 +1,45 @@
 /* src/components/pages/GourmetItem.css */
 .gourmet-item {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  color: #333;
+  background-color: #f9f9f9; /* Light background for better readability */
+  border: 1px solid #ddd; /* Subtle border for separation */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+/* Hover effect for better interactivity */
+.gourmet-item:hover {
+  transform: scale(1.03); /* Slight zoom on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+/* Typography adjustments for readability */
+.gourmet-item h1,
+.gourmet-item h2,
+.gourmet-item h3 {
+  color: #222; /* Slightly darker for headings */
+  margin-bottom: 10px;
+}
+
+.gourmet-item p {
+  line-height: 1.6; /* Improve text readability */
+  margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .gourmet-item {
+    padding: 15px; /* Adjust padding for smaller screens */
+    font-size: 0.9rem; /* Reduce font size for better fit */
   }
-  
+}
+
+@media only screen and (max-width: 480px) {
+  .gourmet-item {
+    padding: 10px; /* Further reduce padding for compact screens */
+    font-size: 0.85rem; /* Smaller font size for narrow screens */
+  }
+}

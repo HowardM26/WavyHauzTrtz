@@ -2,60 +2,93 @@
 html, body {
   background-image: url("/public/retro.jpg"); /* Path to image in the public folder */
   background-position: left;
+  background-size: cover; /* Ensure the background image covers the entire screen */
   margin: 0;
   height: 100%;
   min-height: 100%;
+  font-family: 'PT Sans', sans-serif;
 }
 
+/* Flexbox Layout for the Body */
 .body { 
   display: flex;
   flex-direction: column;
 }
 
+/* Global Reset for All Elements */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
 }
 
 /* Section Styles */
-.home,
-.products,
-.sign-up {
+.home, .products, .sign-up {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  height: 100vh; /* Ensure full viewport height for carousel */
-  width: 100%; /* Ensure full width for carousel */
+  height: 100vh; /* Ensure full viewport height */
+  width: 100%; /* Ensure full width */
+  text-align: center; /* Center text horizontally */
+  padding: 20px; /* Optional: Add padding to avoid content touching the edges */
 }
-
 
 /* About Section */
 .about {
-  height: 100%;
-  background-position: center;
+  background-image: url("/public/Logo1__1.jpg"); /* Path to image in the public folder */
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 100px;
+  height: 100vh; /* Ensure it takes the full height of the viewport */
+  color: #fff; /* Optional: Make the text white for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Products Section */
 .products {
   background-image: url("/public/Logo1__1.jpg"); /* Path to image in the public folder */
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 100px;
+  color: #fff; /* Optional: Text color contrast */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Sign-up Section */
 .sign-up {
   background-image: url("/public/Logo1__1.jpg"); /* Path to image in the public folder */
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 100px;
+  color: #fff; /* Optional: Text color contrast */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .home, .products, .sign-up {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+  
+  .about, .products, .sign-up {
+    font-size: 50px; /* Smaller font size for section titles */
+  }
+}
+
+/* Optional: Add parallax effect to background images */
+.home, .about, .products, .sign-up {
+  background-attachment: fixed; /* Parallax effect */
 }

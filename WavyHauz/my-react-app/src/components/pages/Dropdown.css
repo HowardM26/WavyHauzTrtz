@@ -1,47 +1,76 @@
+/* Dropdown Menu Base Styles */
 .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
-  
+    left: 0;
     list-style-type: none;
     background-color: #f1f1f1;
     min-width: 160px;
-    padding: 12px 16px;
+    padding: 0; /* Remove padding to better align items */
+    margin: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for better visibility */
     opacity: 0;
-    transform: translateY(-10px); /* Start above the normal position */
+    transform: translateY(-10px); /* Start slightly above */
     transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 100; /* Ensure it appears above other content */
 }
 
+/* Visible State */
 .dropdown-menu.clicked {
-    display: block; /* Shows the menu when clicked */
+    display: block;
     opacity: 1;
-    transform: translateY(0); /* Bring it to its original position */
+    transform: translateY(0); /* Reset transform */
 }
 
+/* Dropdown Menu List Items */
 .dropdown-menu li {
-    padding: 8px 12px;
+    padding: 8px 16px;
+    cursor: pointer;
 }
 
 .dropdown-menu li a {
     text-decoration: none;
     color: black;
+    display: block; /* Makes the anchor tag cover the full width */
+    width: 100%; /* Ensures click area covers the list item */
+    padding: 8px 16px;
+    border-radius: 4px; /* Match menu's rounded corners */
 }
 
+/* Hover Effects */
 .dropdown-menu li a:hover {
     background-color: #ddd; /* Light background on hover */
-    color: #21cff1; /* Change text color on hover */
+    color: #21cff1; /* Text color on hover */
 }
 
-
+/* Dropdown Toggle Button */
 .dropdown-toggle {
-    background-color: #21cff1; /* Button style */
+    background-color: #21cff1; /* Button background */
     color: white;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 .dropdown-toggle:hover {
     background-color: #000000; /* Button hover effect */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .dropdown-menu {
+        position: static; /* Change position for better alignment on mobile */
+        transform: none; /* Reset transform for static position */
+        box-shadow: none; /* Simplify visuals */
+    }
+
+    .dropdown-toggle {
+        width: 100%; /* Full-width button for easier tapping */
+        text-align: center;
+    }
 }

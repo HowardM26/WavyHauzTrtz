@@ -13,10 +13,12 @@
 
 .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between; /* Ensure space between logo and menu */
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  width: 100%;
+  padding: 0 20px; /* Added some padding for spacing */
 }
 
 .navbar-logo {
@@ -92,7 +94,7 @@
       display: block;
       position: absolute;
       top: 0;
-      right: 0;
+      right: 20px; /* Adjusted right margin for better alignment */
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
@@ -108,5 +110,21 @@
   .nav-links:hover {
       background-color: #fff;
       color: #242424;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-container {
+    flex-direction: column; /* Stack items vertically on extra small screens */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-menu {
+    height: auto; /* Remove fixed height on small screens */
+  }
+
+  .nav-links {
+    font-size: 1.1rem; /* Adjust font size for better readability */
   }
 }
